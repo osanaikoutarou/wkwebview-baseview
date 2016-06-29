@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B4AA3D71D238DAE00A78198 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AA3D61D238DAE00A78198 /* main.m */; };
+		3B4AA3DA1D238DAE00A78198 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AA3D91D238DAE00A78198 /* AppDelegate.m */; };
+		3B4AA3DD1D238DAE00A78198 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AA3DC1D238DAE00A78198 /* ViewController.m */; };
+		3B4AA3E01D238DAE00A78198 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4AA3DE1D238DAE00A78198 /* Main.storyboard */; };
+		3B4AA3E21D238DAE00A78198 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B4AA3E11D238DAE00A78198 /* Assets.xcassets */; };
+		3B4AA3E51D238DAE00A78198 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B4AA3E31D238DAE00A78198 /* LaunchScreen.storyboard */; };
+		3B4AA3F01D238DAE00A78198 /* SuperCustomWebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AA3EF1D238DAE00A78198 /* SuperCustomWebViewTests.m */; };
+		3B4AA3FB1D238DAE00A78198 /* SuperCustomWebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AA3FA1D238DAE00A78198 /* SuperCustomWebViewUITests.m */; };
+		3B4AA40B1D238E1200A78198 /* WKWebViewBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4AA40A1D238E1200A78198 /* WKWebViewBaseView.m */; };
+		3B8F3C421D23CD7300EE5394 /* UIViewController+WKWebViewBaseViewManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8F3C411D23CD7300EE5394 /* UIViewController+WKWebViewBaseViewManage.m */; };
+		3EC786BF40A8752A9B27EA0A /* libPods-SuperCustomWebView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89D706D1DE7889942ECA89DB /* libPods-SuperCustomWebView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B4AA3EC1D238DAE00A78198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B4AA3CA1D238DAE00A78198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4AA3D11D238DAE00A78198;
+			remoteInfo = SuperCustomWebView;
+		};
+		3B4AA3F71D238DAE00A78198 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B4AA3CA1D238DAE00A78198 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B4AA3D11D238DAE00A78198;
+			remoteInfo = SuperCustomWebView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26FE52DB5F107D7EC67DCC9B /* Pods-SuperCustomWebView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperCustomWebView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SuperCustomWebView/Pods-SuperCustomWebView.debug.xcconfig"; sourceTree = "<group>"; };
+		3B4AA3D21D238DAE00A78198 /* SuperCustomWebView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SuperCustomWebView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4AA3D61D238DAE00A78198 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B4AA3D81D238DAE00A78198 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B4AA3D91D238DAE00A78198 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B4AA3DB1D238DAE00A78198 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B4AA3DC1D238DAE00A78198 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B4AA3DF1D238DAE00A78198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B4AA3E11D238DAE00A78198 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B4AA3E41D238DAE00A78198 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B4AA3E61D238DAE00A78198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4AA3EB1D238DAE00A78198 /* SuperCustomWebViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCustomWebViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4AA3EF1D238DAE00A78198 /* SuperCustomWebViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCustomWebViewTests.m; sourceTree = "<group>"; };
+		3B4AA3F11D238DAE00A78198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4AA3F61D238DAE00A78198 /* SuperCustomWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SuperCustomWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B4AA3FA1D238DAE00A78198 /* SuperCustomWebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperCustomWebViewUITests.m; sourceTree = "<group>"; };
+		3B4AA3FC1D238DAE00A78198 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B4AA4091D238E1200A78198 /* WKWebViewBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKWebViewBaseView.h; sourceTree = "<group>"; };
+		3B4AA40A1D238E1200A78198 /* WKWebViewBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKWebViewBaseView.m; sourceTree = "<group>"; };
+		3B8F3C401D23CD7300EE5394 /* UIViewController+WKWebViewBaseViewManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+WKWebViewBaseViewManage.h"; sourceTree = "<group>"; };
+		3B8F3C411D23CD7300EE5394 /* UIViewController+WKWebViewBaseViewManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+WKWebViewBaseViewManage.m"; sourceTree = "<group>"; };
+		4611FA77C9BC9B9B42F3B7D4 /* Pods-SuperCustomWebView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SuperCustomWebView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SuperCustomWebView/Pods-SuperCustomWebView.release.xcconfig"; sourceTree = "<group>"; };
+		89D706D1DE7889942ECA89DB /* libPods-SuperCustomWebView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SuperCustomWebView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B4AA3CF1D238DAE00A78198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EC786BF40A8752A9B27EA0A /* libPods-SuperCustomWebView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4AA3E81D238DAE00A78198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4AA3F31D238DAE00A78198 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30FFD3CEFC6A600FF5090C49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89D706D1DE7889942ECA89DB /* libPods-SuperCustomWebView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B4AA3C91D238DAE00A78198 = {
+			isa = PBXGroup;
+			children = (
+				3B4AA3D41D238DAE00A78198 /* SuperCustomWebView */,
+				3B4AA3EE1D238DAE00A78198 /* SuperCustomWebViewTests */,
+				3B4AA3F91D238DAE00A78198 /* SuperCustomWebViewUITests */,
+				3B4AA3D31D238DAE00A78198 /* Products */,
+				F6928BDBDC3C55CEF975CCBF /* Pods */,
+				30FFD3CEFC6A600FF5090C49 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3B4AA3D31D238DAE00A78198 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AA3D21D238DAE00A78198 /* SuperCustomWebView.app */,
+				3B4AA3EB1D238DAE00A78198 /* SuperCustomWebViewTests.xctest */,
+				3B4AA3F61D238DAE00A78198 /* SuperCustomWebViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B4AA3D41D238DAE00A78198 /* SuperCustomWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F3C3F1D23B24400EE5394 /* CustomCategory */,
+				3B4AA4081D238DDA00A78198 /* CustomView */,
+				3B4AA3D81D238DAE00A78198 /* AppDelegate.h */,
+				3B4AA3D91D238DAE00A78198 /* AppDelegate.m */,
+				3B4AA3DB1D238DAE00A78198 /* ViewController.h */,
+				3B4AA3DC1D238DAE00A78198 /* ViewController.m */,
+				3B4AA3DE1D238DAE00A78198 /* Main.storyboard */,
+				3B4AA3E11D238DAE00A78198 /* Assets.xcassets */,
+				3B4AA3E31D238DAE00A78198 /* LaunchScreen.storyboard */,
+				3B4AA3E61D238DAE00A78198 /* Info.plist */,
+				3B4AA3D51D238DAE00A78198 /* Supporting Files */,
+			);
+			path = SuperCustomWebView;
+			sourceTree = "<group>";
+		};
+		3B4AA3D51D238DAE00A78198 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AA3D61D238DAE00A78198 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B4AA3EE1D238DAE00A78198 /* SuperCustomWebViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AA3EF1D238DAE00A78198 /* SuperCustomWebViewTests.m */,
+				3B4AA3F11D238DAE00A78198 /* Info.plist */,
+			);
+			path = SuperCustomWebViewTests;
+			sourceTree = "<group>";
+		};
+		3B4AA3F91D238DAE00A78198 /* SuperCustomWebViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AA3FA1D238DAE00A78198 /* SuperCustomWebViewUITests.m */,
+				3B4AA3FC1D238DAE00A78198 /* Info.plist */,
+			);
+			path = SuperCustomWebViewUITests;
+			sourceTree = "<group>";
+		};
+		3B4AA4081D238DDA00A78198 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				3B4AA4091D238E1200A78198 /* WKWebViewBaseView.h */,
+				3B4AA40A1D238E1200A78198 /* WKWebViewBaseView.m */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		3B8F3C3F1D23B24400EE5394 /* CustomCategory */ = {
+			isa = PBXGroup;
+			children = (
+				3B8F3C401D23CD7300EE5394 /* UIViewController+WKWebViewBaseViewManage.h */,
+				3B8F3C411D23CD7300EE5394 /* UIViewController+WKWebViewBaseViewManage.m */,
+			);
+			path = CustomCategory;
+			sourceTree = "<group>";
+		};
+		F6928BDBDC3C55CEF975CCBF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26FE52DB5F107D7EC67DCC9B /* Pods-SuperCustomWebView.debug.xcconfig */,
+				4611FA77C9BC9B9B42F3B7D4 /* Pods-SuperCustomWebView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B4AA3D11D238DAE00A78198 /* SuperCustomWebView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4AA3FF1D238DAE00A78198 /* Build configuration list for PBXNativeTarget "SuperCustomWebView" */;
+			buildPhases = (
+				3F6CC00103E9B8ED83B2E332 /* Check Pods Manifest.lock */,
+				3B4AA3CE1D238DAE00A78198 /* Sources */,
+				3B4AA3CF1D238DAE00A78198 /* Frameworks */,
+				3B4AA3D01D238DAE00A78198 /* Resources */,
+				73CB7350913B02C445BFA34A /* Embed Pods Frameworks */,
+				EE9D047E542861F2FA619D0E /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SuperCustomWebView;
+			productName = SuperCustomWebView;
+			productReference = 3B4AA3D21D238DAE00A78198 /* SuperCustomWebView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B4AA3EA1D238DAE00A78198 /* SuperCustomWebViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4AA4021D238DAE00A78198 /* Build configuration list for PBXNativeTarget "SuperCustomWebViewTests" */;
+			buildPhases = (
+				3B4AA3E71D238DAE00A78198 /* Sources */,
+				3B4AA3E81D238DAE00A78198 /* Frameworks */,
+				3B4AA3E91D238DAE00A78198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4AA3ED1D238DAE00A78198 /* PBXTargetDependency */,
+			);
+			name = SuperCustomWebViewTests;
+			productName = SuperCustomWebViewTests;
+			productReference = 3B4AA3EB1D238DAE00A78198 /* SuperCustomWebViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B4AA3F51D238DAE00A78198 /* SuperCustomWebViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B4AA4051D238DAE00A78198 /* Build configuration list for PBXNativeTarget "SuperCustomWebViewUITests" */;
+			buildPhases = (
+				3B4AA3F21D238DAE00A78198 /* Sources */,
+				3B4AA3F31D238DAE00A78198 /* Frameworks */,
+				3B4AA3F41D238DAE00A78198 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B4AA3F81D238DAE00A78198 /* PBXTargetDependency */,
+			);
+			name = SuperCustomWebViewUITests;
+			productName = SuperCustomWebViewUITests;
+			productReference = 3B4AA3F61D238DAE00A78198 /* SuperCustomWebViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B4AA3CA1D238DAE00A78198 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "長内　幸太郎";
+				TargetAttributes = {
+					3B4AA3D11D238DAE00A78198 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3B4AA3EA1D238DAE00A78198 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3B4AA3D11D238DAE00A78198;
+					};
+					3B4AA3F51D238DAE00A78198 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3B4AA3D11D238DAE00A78198;
+					};
+				};
+			};
+			buildConfigurationList = 3B4AA3CD1D238DAE00A78198 /* Build configuration list for PBXProject "SuperCustomWebView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B4AA3C91D238DAE00A78198;
+			productRefGroup = 3B4AA3D31D238DAE00A78198 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B4AA3D11D238DAE00A78198 /* SuperCustomWebView */,
+				3B4AA3EA1D238DAE00A78198 /* SuperCustomWebViewTests */,
+				3B4AA3F51D238DAE00A78198 /* SuperCustomWebViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B4AA3D01D238DAE00A78198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4AA3E51D238DAE00A78198 /* LaunchScreen.storyboard in Resources */,
+				3B4AA3E21D238DAE00A78198 /* Assets.xcassets in Resources */,
+				3B4AA3E01D238DAE00A78198 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4AA3E91D238DAE00A78198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4AA3F41D238DAE00A78198 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F6CC00103E9B8ED83B2E332 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		73CB7350913B02C445BFA34A /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperCustomWebView/Pods-SuperCustomWebView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE9D047E542861F2FA619D0E /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SuperCustomWebView/Pods-SuperCustomWebView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B4AA3CE1D238DAE00A78198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4AA3DD1D238DAE00A78198 /* ViewController.m in Sources */,
+				3B8F3C421D23CD7300EE5394 /* UIViewController+WKWebViewBaseViewManage.m in Sources */,
+				3B4AA3DA1D238DAE00A78198 /* AppDelegate.m in Sources */,
+				3B4AA3D71D238DAE00A78198 /* main.m in Sources */,
+				3B4AA40B1D238E1200A78198 /* WKWebViewBaseView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4AA3E71D238DAE00A78198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4AA3F01D238DAE00A78198 /* SuperCustomWebViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B4AA3F21D238DAE00A78198 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4AA3FB1D238DAE00A78198 /* SuperCustomWebViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B4AA3ED1D238DAE00A78198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B4AA3D11D238DAE00A78198 /* SuperCustomWebView */;
+			targetProxy = 3B4AA3EC1D238DAE00A78198 /* PBXContainerItemProxy */;
+		};
+		3B4AA3F81D238DAE00A78198 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B4AA3D11D238DAE00A78198 /* SuperCustomWebView */;
+			targetProxy = 3B4AA3F71D238DAE00A78198 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B4AA3DE1D238DAE00A78198 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4AA3DF1D238DAE00A78198 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B4AA3E31D238DAE00A78198 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B4AA3E41D238DAE00A78198 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B4AA3FD1D238DAE00A78198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B4AA3FE1D238DAE00A78198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B4AA4001D238DAE00A78198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26FE52DB5F107D7EC67DCC9B /* Pods-SuperCustomWebView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperCustomWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = osanaikoutarou.SuperCustomWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B4AA4011D238DAE00A78198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4611FA77C9BC9B9B42F3B7D4 /* Pods-SuperCustomWebView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SuperCustomWebView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = osanaikoutarou.SuperCustomWebView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B4AA4031D238DAE00A78198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperCustomWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = osanaikoutarou.SuperCustomWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCustomWebView.app/SuperCustomWebView";
+			};
+			name = Debug;
+		};
+		3B4AA4041D238DAE00A78198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SuperCustomWebViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = osanaikoutarou.SuperCustomWebViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SuperCustomWebView.app/SuperCustomWebView";
+			};
+			name = Release;
+		};
+		3B4AA4061D238DAE00A78198 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperCustomWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = osanaikoutarou.SuperCustomWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperCustomWebView;
+			};
+			name = Debug;
+		};
+		3B4AA4071D238DAE00A78198 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SuperCustomWebViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = osanaikoutarou.SuperCustomWebViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SuperCustomWebView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B4AA3CD1D238DAE00A78198 /* Build configuration list for PBXProject "SuperCustomWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4AA3FD1D238DAE00A78198 /* Debug */,
+				3B4AA3FE1D238DAE00A78198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4AA3FF1D238DAE00A78198 /* Build configuration list for PBXNativeTarget "SuperCustomWebView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4AA4001D238DAE00A78198 /* Debug */,
+				3B4AA4011D238DAE00A78198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4AA4021D238DAE00A78198 /* Build configuration list for PBXNativeTarget "SuperCustomWebViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4AA4031D238DAE00A78198 /* Debug */,
+				3B4AA4041D238DAE00A78198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B4AA4051D238DAE00A78198 /* Build configuration list for PBXNativeTarget "SuperCustomWebViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B4AA4061D238DAE00A78198 /* Debug */,
+				3B4AA4071D238DAE00A78198 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B4AA3CA1D238DAE00A78198 /* Project object */;
+}
